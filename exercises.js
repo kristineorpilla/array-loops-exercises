@@ -21,14 +21,12 @@ console.log(colors.length);
 var text = "";
 var i;
 for (i = 0; i < colors.length; i++) { 
-  text += console.log(colors[i] + "<br>");
+  text += console.log(colors[i]);
 }
 //11
 for (i = 0; i < colors.length; i++) {
-	text += console.log(colors[i] + " or " + i + "<br>");
+	text += console.log(colors[i] + " " +  i);
 }
 //12
-// var lastColor = console.log(colors[colors.length]);
-// for (i = 0; i === colors.length) {
-// 	text += console.log(colors[i] + "<br>");
-// }
+var lastColor = colors[colors.length - 1];
+console.log(lastColor);
